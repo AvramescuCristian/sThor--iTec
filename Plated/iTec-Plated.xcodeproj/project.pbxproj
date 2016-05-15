@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3341711B1CE09B6600469ADB /* ProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3341711A1CE09B6600469ADB /* ProcessViewController.swift */; };
+		3341711F1CE09D2200469ADB /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3341711E1CE09D2200469ADB /* ErrorViewController.swift */; };
+		3341712E1CE1166600469ADB /* lato_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3341712A1CE1165200469ADB /* lato_bold.ttf */; };
+		3341712F1CE1166600469ADB /* lato_italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3341712B1CE1165200469ADB /* lato_italic.ttf */; };
+		334171301CE1166600469ADB /* lato_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3341712C1CE1165200469ADB /* lato_regular.ttf */; };
+		334171311CE1166600469ADB /* nanum_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3341712D1CE1165200469ADB /* nanum_regular.ttf */; };
+		33AE3AF01CE08E080058C608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AE3AEF1CE08E080058C608 /* AppDelegate.swift */; };
+		33AE3AF51CE08E080058C608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AE3AF31CE08E080058C608 /* Main.storyboard */; };
+		33AE3AF71CE08E080058C608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AE3AF61CE08E080058C608 /* Assets.xcassets */; };
+		33AE3AFA1CE08E080058C608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AE3AF81CE08E080058C608 /* LaunchScreen.storyboard */; };
+		33AE3B041CE099630058C608 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AE3B031CE099630058C608 /* LoginViewController.swift */; };
+		33CB22751CE1DA0A000370B3 /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB226E1CE1DA0A000370B3 /* QRCodeReader.swift */; };
+		33CB22761CE1DA0A000370B3 /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB226F1CE1DA0A000370B3 /* QRCodeReaderResult.swift */; };
+		33CB22771CE1DA0A000370B3 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB22701CE1DA0A000370B3 /* QRCodeViewController.swift */; };
+		33CB22781CE1DA0A000370B3 /* QRCodeViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB22711CE1DA0A000370B3 /* QRCodeViewControllerBuilder.swift */; };
+		33CB22791CE1DA0A000370B3 /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB22721CE1DA0A000370B3 /* ReaderOverlayView.swift */; };
+		33CB227A1CE1DA0A000370B3 /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB22731CE1DA0A000370B3 /* SwitchCameraButton.swift */; };
+		33CB227B1CE1DA0A000370B3 /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB22741CE1DA0A000370B3 /* ToggleTorchButton.swift */; };
+		33CB227E1CE50685000370B3 /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB227D1CE50685000370B3 /* RequestHandler.swift */; };
+		33CB22801CE72C14000370B3 /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB227F1CE72C14000370B3 /* CategoriesTableViewController.swift */; };
+		33CB22821CE72C1F000370B3 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB22811CE72C1F000370B3 /* ProductsTableViewController.swift */; };
+		33CB22841CE72C3E000370B3 /* BasketTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB22831CE72C3E000370B3 /* BasketTableViewController.swift */; };
+		33CB22861CE72C4F000370B3 /* OrderedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB22851CE72C4F000370B3 /* OrderedTableViewController.swift */; };
+		33CB22881CE73292000370B3 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB22871CE73292000370B3 /* Category.swift */; };
+		33CB228A1CE732A2000370B3 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB22891CE732A2000370B3 /* Product.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3341711A1CE09B6600469ADB /* ProcessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessViewController.swift; sourceTree = "<group>"; };
+		3341711E1CE09D2200469ADB /* ErrorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
+		3341712A1CE1165200469ADB /* lato_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = lato_bold.ttf; sourceTree = "<group>"; };
+		3341712B1CE1165200469ADB /* lato_italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = lato_italic.ttf; sourceTree = "<group>"; };
+		3341712C1CE1165200469ADB /* lato_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = lato_regular.ttf; sourceTree = "<group>"; };
+		3341712D1CE1165200469ADB /* nanum_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = nanum_regular.ttf; sourceTree = "<group>"; };
+		33AE3AEC1CE08E080058C608 /* Plated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plated.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33AE3AEF1CE08E080058C608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33AE3AF41CE08E080058C608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33AE3AF61CE08E080058C608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33AE3AF91CE08E080058C608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33AE3AFB1CE08E080058C608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33AE3B031CE099630058C608 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		33CB226E1CE1DA0A000370B3 /* QRCodeReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeReader.swift; path = QRCodeReader/QRCodeReader.swift; sourceTree = "<group>"; };
+		33CB226F1CE1DA0A000370B3 /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeReaderResult.swift; path = QRCodeReader/QRCodeReaderResult.swift; sourceTree = "<group>"; };
+		33CB22701CE1DA0A000370B3 /* QRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeViewController.swift; path = QRCodeReader/QRCodeViewController.swift; sourceTree = "<group>"; };
+		33CB22711CE1DA0A000370B3 /* QRCodeViewControllerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeViewControllerBuilder.swift; path = QRCodeReader/QRCodeViewControllerBuilder.swift; sourceTree = "<group>"; };
+		33CB22721CE1DA0A000370B3 /* ReaderOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReaderOverlayView.swift; path = QRCodeReader/ReaderOverlayView.swift; sourceTree = "<group>"; };
+		33CB22731CE1DA0A000370B3 /* SwitchCameraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwitchCameraButton.swift; path = QRCodeReader/SwitchCameraButton.swift; sourceTree = "<group>"; };
+		33CB22741CE1DA0A000370B3 /* ToggleTorchButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToggleTorchButton.swift; path = QRCodeReader/ToggleTorchButton.swift; sourceTree = "<group>"; };
+		33CB227D1CE50685000370B3 /* RequestHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
+		33CB227F1CE72C14000370B3 /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
+		33CB22811CE72C1F000370B3 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		33CB22831CE72C3E000370B3 /* BasketTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketTableViewController.swift; sourceTree = "<group>"; };
+		33CB22851CE72C4F000370B3 /* OrderedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderedTableViewController.swift; sourceTree = "<group>"; };
+		33CB22871CE73292000370B3 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		33CB22891CE732A2000370B3 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33AE3AE91CE08E080058C608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		334171281CE09D6200469ADB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33AE3B031CE099630058C608 /* LoginViewController.swift */,
+				3341711A1CE09B6600469ADB /* ProcessViewController.swift */,
+				3341711E1CE09D2200469ADB /* ErrorViewController.swift */,
+				33CB227F1CE72C14000370B3 /* CategoriesTableViewController.swift */,
+				33CB22811CE72C1F000370B3 /* ProductsTableViewController.swift */,
+				33CB22831CE72C3E000370B3 /* BasketTableViewController.swift */,
+				33CB22851CE72C4F000370B3 /* OrderedTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		334171291CE1163F00469ADB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3341712A1CE1165200469ADB /* lato_bold.ttf */,
+				3341712B1CE1165200469ADB /* lato_italic.ttf */,
+				3341712C1CE1165200469ADB /* lato_regular.ttf */,
+				3341712D1CE1165200469ADB /* nanum_regular.ttf */,
+			);
+			name = Fonts;
+			path = Plated;
+			sourceTree = "<group>";
+		};
+		33AE3AE31CE08E080058C608 = {
+			isa = PBXGroup;
+			children = (
+				33AE3AEE1CE08E080058C608 /* Plated */,
+				33CB226D1CE1DA00000370B3 /* QRReader */,
+				334171291CE1163F00469ADB /* Fonts */,
+				33AE3AED1CE08E080058C608 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33AE3AED1CE08E080058C608 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33AE3AEC1CE08E080058C608 /* Plated.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33AE3AEE1CE08E080058C608 /* Plated */ = {
+			isa = PBXGroup;
+			children = (
+				33AE3AEF1CE08E080058C608 /* AppDelegate.swift */,
+				33CB227C1CE50672000370B3 /* Model */,
+				334171281CE09D6200469ADB /* Controller */,
+				33AE3AF31CE08E080058C608 /* Main.storyboard */,
+				33AE3AF61CE08E080058C608 /* Assets.xcassets */,
+				33AE3AF81CE08E080058C608 /* LaunchScreen.storyboard */,
+				33AE3AFB1CE08E080058C608 /* Info.plist */,
+			);
+			path = Plated;
+			sourceTree = "<group>";
+		};
+		33CB226D1CE1DA00000370B3 /* QRReader */ = {
+			isa = PBXGroup;
+			children = (
+				33CB226E1CE1DA0A000370B3 /* QRCodeReader.swift */,
+				33CB226F1CE1DA0A000370B3 /* QRCodeReaderResult.swift */,
+				33CB22701CE1DA0A000370B3 /* QRCodeViewController.swift */,
+				33CB22711CE1DA0A000370B3 /* QRCodeViewControllerBuilder.swift */,
+				33CB22721CE1DA0A000370B3 /* ReaderOverlayView.swift */,
+				33CB22731CE1DA0A000370B3 /* SwitchCameraButton.swift */,
+				33CB22741CE1DA0A000370B3 /* ToggleTorchButton.swift */,
+			);
+			name = QRReader;
+			path = Plated;
+			sourceTree = "<group>";
+		};
+		33CB227C1CE50672000370B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33CB227D1CE50685000370B3 /* RequestHandler.swift */,
+				33CB22871CE73292000370B3 /* Category.swift */,
+				33CB22891CE732A2000370B3 /* Product.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33AE3AEB1CE08E080058C608 /* Plated */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33AE3AFE1CE08E080058C608 /* Build configuration list for PBXNativeTarget "Plated" */;
+			buildPhases = (
+				33AE3AE81CE08E080058C608 /* Sources */,
+				33AE3AE91CE08E080058C608 /* Frameworks */,
+				33AE3AEA1CE08E080058C608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Plated;
+			productName = Plated;
+			productReference = 33AE3AEC1CE08E080058C608 /* Plated.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33AE3AE41CE08E080058C608 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Plated;
+				TargetAttributes = {
+					33AE3AEB1CE08E080058C608 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 33AE3AE71CE08E080058C608 /* Build configuration list for PBXProject "iTec-Plated" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33AE3AE31CE08E080058C608;
+			productRefGroup = 33AE3AED1CE08E080058C608 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33AE3AEB1CE08E080058C608 /* Plated */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33AE3AEA1CE08E080058C608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3341712E1CE1166600469ADB /* lato_bold.ttf in Resources */,
+				3341712F1CE1166600469ADB /* lato_italic.ttf in Resources */,
+				334171301CE1166600469ADB /* lato_regular.ttf in Resources */,
+				334171311CE1166600469ADB /* nanum_regular.ttf in Resources */,
+				33AE3AFA1CE08E080058C608 /* LaunchScreen.storyboard in Resources */,
+				33AE3AF71CE08E080058C608 /* Assets.xcassets in Resources */,
+				33AE3AF51CE08E080058C608 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33AE3AE81CE08E080058C608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CB227B1CE1DA0A000370B3 /* ToggleTorchButton.swift in Sources */,
+				33CB22801CE72C14000370B3 /* CategoriesTableViewController.swift in Sources */,
+				33CB227A1CE1DA0A000370B3 /* SwitchCameraButton.swift in Sources */,
+				33AE3B041CE099630058C608 /* LoginViewController.swift in Sources */,
+				33CB22751CE1DA0A000370B3 /* QRCodeReader.swift in Sources */,
+				33AE3AF01CE08E080058C608 /* AppDelegate.swift in Sources */,
+				33CB22791CE1DA0A000370B3 /* ReaderOverlayView.swift in Sources */,
+				33CB22821CE72C1F000370B3 /* ProductsTableViewController.swift in Sources */,
+				33CB22771CE1DA0A000370B3 /* QRCodeViewController.swift in Sources */,
+				3341711F1CE09D2200469ADB /* ErrorViewController.swift in Sources */,
+				33CB22761CE1DA0A000370B3 /* QRCodeReaderResult.swift in Sources */,
+				33CB228A1CE732A2000370B3 /* Product.swift in Sources */,
+				33CB22881CE73292000370B3 /* Category.swift in Sources */,
+				33CB22841CE72C3E000370B3 /* BasketTableViewController.swift in Sources */,
+				33CB22781CE1DA0A000370B3 /* QRCodeViewControllerBuilder.swift in Sources */,
+				3341711B1CE09B6600469ADB /* ProcessViewController.swift in Sources */,
+				33CB22861CE72C4F000370B3 /* OrderedTableViewController.swift in Sources */,
+				33CB227E1CE50685000370B3 /* RequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33AE3AF31CE08E080058C608 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33AE3AF41CE08E080058C608 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33AE3AF81CE08E080058C608 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33AE3AF91CE08E080058C608 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33AE3AFC1CE08E080058C608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33AE3AFD1CE08E080058C608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33AE3AFF1CE08E080058C608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Plated/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SI.Plated;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33AE3B001CE08E080058C608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Plated/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SI.Plated;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33AE3AE71CE08E080058C608 /* Build configuration list for PBXProject "iTec-Plated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33AE3AFC1CE08E080058C608 /* Debug */,
+				33AE3AFD1CE08E080058C608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33AE3AFE1CE08E080058C608 /* Build configuration list for PBXNativeTarget "Plated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33AE3AFF1CE08E080058C608 /* Debug */,
+				33AE3B001CE08E080058C608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33AE3AE41CE08E080058C608 /* Project object */;
+}
